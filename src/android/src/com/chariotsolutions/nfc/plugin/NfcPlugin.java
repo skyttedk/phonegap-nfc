@@ -492,7 +492,6 @@ public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCom
                 pendingIntent = PendingIntent.getActivity(activity, 0, intent, 0);
             }
         }
-        }
     }
 
     private void addTechList(String[] list) {
